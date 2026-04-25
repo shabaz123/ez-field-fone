@@ -1,0 +1,68 @@
+* 2-pole, 4-position rotary switch
+* Pin order:
+* 1 = ACOM
+* 2 = A1
+* 3 = A2
+* 4 = A3
+* 5 = A4
+* 10 = BCOM
+* 6 = B1
+* 7 = B2
+* 8 = B3
+* 9 = B4
+*
+* Subckt node order used below:
+* ACOM A1 A2 A3 A4 BCOM B1 B2 B3 B4
+*
+* Ron  = 1 Ohm
+* Roff = 1e13 ohm
+
+********************************************************************************
+.SUBCKT POS1 ACOM A1 A2 A3 A4 BCOM B1 B2 B3 B4
+R_A1 ACOM A1  1
+R_A2 ACOM A2  1e13
+R_A3 ACOM A3  1e13
+R_A4 ACOM A4  1e13
+
+R_B1 BCOM B1  1
+R_B2 BCOM B2  1e13
+R_B3 BCOM B3  1e13
+R_B4 BCOM B4  1e13
+.ENDS POS1
+********************************************************************************
+.SUBCKT POS2 ACOM A1 A2 A3 A4 BCOM B1 B2 B3 B4
+R_A1 ACOM A1  1e13
+R_A2 ACOM A2  1
+R_A3 ACOM A3  1e13
+R_A4 ACOM A4  1e13
+
+R_B1 BCOM B1  1e13
+R_B2 BCOM B2  1
+R_B3 BCOM B3  1e13
+R_B4 BCOM B4  1e13
+.ENDS POS2
+********************************************************************************
+.SUBCKT POS3 ACOM A1 A2 A3 A4 BCOM B1 B2 B3 B4
+R_A1 ACOM A1  1e13
+R_A2 ACOM A2  1e13
+R_A3 ACOM A3  1
+R_A4 ACOM A4  1e13
+
+R_B1 BCOM B1  1e13
+R_B2 BCOM B2  1e13
+R_B3 BCOM B3  1
+R_B4 BCOM B4  1e13
+.ENDS POS3
+********************************************************************************
+.SUBCKT POS4 ACOM A1 A2 A3 A4 BCOM B1 B2 B3 B4
+R_A1 ACOM A1  1e13
+R_A2 ACOM A2  1e13
+R_A3 ACOM A3  1e13
+R_A4 ACOM A4  1
+
+R_B1 BCOM B1  1e13
+R_B2 BCOM B2  1e13
+R_B3 BCOM B3  1e13
+R_B4 BCOM B4  1
+.ENDS POS4
+********************************************************************************
