@@ -117,6 +117,16 @@ Note that there are two wire links that need to be soldered on the board undersi
 
 ![Main Board Render](main-board/main-board-render.png)
 
+## Enclosure Cutouts
+
+The Main Board requires the following holes to be drilled in the enclosure:
+
+- An approximately 9 x 7.5 mm rectangular hole for a 3.81 mm pitch 2-way plug-in terminal block, used for attaching bell wire
+- Two approximately 6 mm diameter holes, one for the mute button, and one for the recessed line termination button (the bell wire needs terminating at one end)
+- 7.5 mm dia hole for the volume control potentiometer
+- Hole for the call alert LED indicator
+- Hole for an audio buzzer (if a buzzer is fitted) for audible call alerts
+
 ---
 
 ## Notes
