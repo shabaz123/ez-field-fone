@@ -71,11 +71,23 @@ If you wish to plug in an external mic and speaker/eaerphone, use the 3.5 mm 3-p
 
 ## PCB Underside
 
+Note that one wire link needs to be made on the underside; it is labeled on the board.
+
 ![Mic Board Top](mic-board/mic-board-underside.png)
 
 ## PCB Render
 
 ![Mic Board Render](mic-board/mic-board-render.png)
+
+## Enclosure Cutouts
+
+The Mic Board requires the following holes to be drilled in the enclosure:
+
+- DC barrel socket
+- Rotary switch (4-position, for Off/Standby/On/Call)
+- Power ON LED indicator
+- 3.5 mm audio socket (for external mic and external earphone/speaker)
+- Hole for electret mic element
 
 ---
 
@@ -87,11 +99,17 @@ The main board includes a 280mW audio amplifier designed by M. Kellett.
 
 ![Main Board Schematic](main-board/main-board-schematic.png)
 
+## Board Connections
+
+The only off-board connection from the Main Board is the 8-way connection that interfaces to the Mic Board. See the Mic Board notes earlier, for an explanation of the required cable (8-way JST PH cable, "opposite direction", i.e. identical pin mapping, pin 1 to pin 1, and pin 2 to pin 2, and so on).
+
 ## PCB Top
 
 ![Main Board Top](main-board/main-board-top.png)
 
 ## PCB Underside
+
+Note that there are two wire links that need to be soldered on the board underside. The connections are labeled A and B on the circuit board (connect A to A, and connect B to B).
 
 ![Main Board Top](main-board/main-board-underside.png)
 
@@ -107,12 +125,15 @@ All components are easy to source.
 
 For the input power, use a 9V PP3 battery, or use the 9V DC barrel socket (center positive).
 
-
-
-For the audio input and output, an AliExpress stereo audio jack socket can be used (only the tip and the screen is used, the ring is not connected). Alternatively, the audio connections can be made with 0.1" pin headers (they will fit in the same footprint, as there are extra holes for that). 
-
 The potentiometer can be ALPS RK097 series (available from AliExpress), it has pins at 2.5 mm pitch, and a body width of 10 mm.
 
+The rotary switch is type RS1010 4-way (available from AliExpress)
+
+The push switches can be either PS-12E05, or PN12 series by CK/Littelfuse
+
+For the trimmer resistor, RM065 series will fit the PCB
+
+The line connector (for attaching the bell wire) is a 2-way 3.81 mm pitch terminal block, there are many generic options. One example is WJ15EDGRC-3.81-02P-14-00A (which mates with part code WJ15EDGK-3.81-02P-14-00A
 
 
 
