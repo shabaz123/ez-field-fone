@@ -1,0 +1,23 @@
+* SPDT Switch
+* Pin order:
+* 1 = A1
+* 2 = ACOM
+* 3 = A2
+*
+* Subckt node order used below:
+* A1 ACOM A1 A2
+*
+* Ron  = 1 Ohm
+* Roff = 1e13 ohm
+
+********************************************************************************
+.SUBCKT UNPRESSED A1 ACOM A2
+R_A1 ACOM A1  1
+R_A2 ACOM A2  1e13
+.ENDS UNPRESSED
+********************************************************************************
+.SUBCKT PRESSED A1 ACOM A2
+R_A1 ACOM A1  1e13
+R_A2 ACOM A2  1
+.ENDS PRESSED
+********************************************************************************
