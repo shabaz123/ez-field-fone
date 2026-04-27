@@ -145,6 +145,77 @@ For the trimmer resistor, RM065 series will fit the PCB
 
 The line connector (for attaching the bell wire) is a 2-way 3.81 mm pitch terminal block, there are many generic options. One example is WJ15EDGRC-3.81-02P-14-00A (which mates with part code WJ15EDGK-3.81-02P-14-00A
 
+---
+
+# Parts Lists
+
+## Mic Board Parts List
+
+| Reference   |   Qty | Value             | Description                             |
+|:------------|------:|:------------------|:----------------------------------------|
+| C1          |     1 | 47u               | Electrolytic Capacitor 5mm dia          |
+| C2,C3,C5    |     3 | 22u               | Electrolytic Capacitor 5mm dia          |
+| C4          |     1 | 100n              | Ceramic Capacitor 5mm pitch             |
+| C6          |     1 | 220p              | Ceramic Capacitor 5mm pitch             |
+| C7          |     1 | 2.2n              | Ceramic Capacitor 5mm pitch             |
+| D1          |     1 | 1N4148            | Small Signal Diode                      |
+| D3          |     1 | LED_ON            | LED 3mm dia                             |
+| J1          |     1 | ELECTRET_MIC      | Electret Mic Element                    |
+| J2          |     1 | HANDSET           | SJ1-3525N 3.5mm jack CUI                |
+| J3          |     1 | DC-Socket         | 2.1/5.5mm DC Jack Socket                |
+| J4          |     1 | PP3 BATT          | Battery Clip PP3                        |
+| J5          |     1 | SPEAKER           | AS06608PS-R 8-ohm  60mm dia (66 x 66mm) |
+| J6          |     1 | B8B-PH-K-S        | JST PH Header 8-way Vertical            |
+| Q1,Q3       |     2 | BC549             | NPN TO-92 Low Noise BJT                 |
+| Q2          |     1 | BC559             | PNP TO-92 Low Noise BJT                 |
+| Q4          |     1 | BC547             | NPN TO-92 BJT                           |
+| Q5          |     1 | BS250P            | P-ch MOSFET TO-92                       |
+| R1,R14,R17  |     3 | 1k                | Resistor 1/8W or 1/4W                   |
+| R2          |     1 | 10k               | Resistor 1/8W or 1/4W                   |
+| R3          |     1 | 91k               | Resistor 1/8W or 1/4W                   |
+| R4          |     1 | 180k              | Resistor 1/8W or 1/4W                   |
+| R5          |     1 | 56k               | Resistor 1/8W or 1/4W                   |
+| R6          |     1 | 82R               | Resistor 1/8W or 1/4W                   |
+| R7          |     1 | 560R              | Resistor 1/8W or 1/4W                   |
+| R8          |     1 | 5.6k              | Resistor 1/8W or 1/4W                   |
+| R9          |     1 | 2.7k              | Resistor 1/8W or 1/4W                   |
+| R10         |     1 | 16k               | Resistor 1/8W or 1/4W                   |
+| R11         |     1 | 4.7k              | Resistor 1/8W or 1/4W                   |
+| R12,R13     |     2 | 3.9k              | Resistor 1/8W or 1/4W                   |
+| R15         |     1 | 22k               | Resistor 1/8W or 1/4W                   |
+| R16         |     1 | 1M                | Resistor 1/8W or 1/4W                   |
+| SW1         |     1 | RS1010-2Pole-4Pos | 2P4T Rotary Switch                      |
+|             |     1 | JST PH Cable      | 8way Opposite Direction cable           |
+|             |     1 | Knob 6mm Knurled  | 15mm dia outer, flower inner hole 6mm   |
+
+
+## Main Board Parts List
+
+| Reference        |   Qty | Value              | Description                          |
+|:-----------------|------:|:-------------------|:-------------------------------------|
+| C1,C8,C9         |     3 | 100n               | Ceramic Capacitor 5mm pitch          |
+| C2               |     1 | 10u                | Electrolytic Capacitor 5mm dia       |
+| C3               |     1 | 47u                | Electrolytic Capacitor 5mm dia       |
+| C4               |     1 | 220u               | Electrolytic Capacitor 8mm dia       |
+| C5               |     1 | 1u                 | Electrolytic Capacitor 5mm dia       |
+| C6               |     1 | 10n                | Ceramic Capacitor 5mm pitch          |
+| C7               |     1 | 4.7u               | Electrolytic Capacitor 5mm dia       |
+| D1               |     1 | 1N4001             | Rectifier Diode                      |
+| D2               |     1 | LED_PWR            | LED 3mm dia                          |
+| IC1              |     1 | LM386              | Audio Amplifier IC DIP-8             |
+| IC2              |     1 | NE555              | Timer IC DIP-8                       |
+| J1               |     1 | DC-Socket          | 2.1/5.5mm DC Jack Socket             |
+| J2               |     1 | SPEAKER            | 8-ohm Speaker Output                 |
+| J3               |     1 | INPUT              | Audio Input Connector                |
+| Q1               |     1 | BC547              | NPN TO-92 BJT                        |
+| R1,R2            |     2 | 10k                | Resistor 1/8W or 1/4W                |
+| R3               |     1 | 1k                 | Resistor 1/8W or 1/4W                |
+| R4               |     1 | 100k               | Resistor 1/8W or 1/4W                |
+| R5               |     1 | 220R               | Resistor 1/8W or 1/4W                |
+| R6               |     1 | 4.7k               | Resistor 1/8W or 1/4W                |
+| R7               |     1 | 47k                | Resistor 1/8W or 1/4W                |
+| RV1              |     1 | 10k Pot            | Potentiometer                        |
+| SW1              |     1 | SPST               | On/Off Switch                        |
 
 
 
