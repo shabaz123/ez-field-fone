@@ -97,6 +97,8 @@ The main board includes a 280mW audio amplifier designed by M. Kellett.
 
 ## Schematic
 
+Note: Resistor R35 is specified to be 630 ohm, this is a hard-to-find value, it may be replaced by 620 ohm in series with 10 ohm.
+
 ![Main Board Schematic](main-board/main-board-schematic.png)
 
 ## Board Connections
