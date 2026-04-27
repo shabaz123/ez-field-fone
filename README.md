@@ -55,7 +55,15 @@ There is a 2-pin location for soldering an 8-ohm speaker
 
 ### Interfacing Connector
 
-An 8-pin connector is used to connect a cable between the Mic Board and the Main Board. A ready-made JST PH 8-way "opposite direction", also known as "reverse direction" cable can be used (available from AliExpress). The opposite/reverse direction means that when laid flat, opposite sides of the connector are seen from one end to the other (this means that pin 1 of the both connectors are attached to each other, and pin 2 of both connectors are attached to each other, and so on; in contrast, a "same direction" cable has pin 1 on one connector wired to pin 8 of the other connector, and pin 2 to pin 7, and so on). Double-check you have the correct cable; don't purchase a "same direction" cable!
+An 8-pin connector is used to connect a cable between the Mic Board and the Main Board. 
+
+A ready-made JST PH 8-way "opposite direction", also known as "reverse direction" cable can be used (available from AliExpress). The opposite/reverse direction means that when laid flat, opposite sides of the connector are seen from one end to the other (this means that pin 1 of the both connectors are attached to each other, and pin 2 of both connectors are attached to each other, and so on; in contrast, a "same direction" cable has pin 1 on one connector wired to pin 8 of the other connector, and pin 2 to pin 7, and so on). 
+
+Double-check you have the correct cable; do NOT purchase a "same direction" cable!
+
+If you're using the larger Hammond enclosure, the cable length needs to ideally be 15cm (available from a few AliExpress stores) or alternatively 20cm (which more AliExpress stores offer). 
+
+If you're using the smaller Hammond enclosure, a 10cm length cable should reach, but you'll need to measure it or try it out.
 
 ## 3.5 mm Audio Jack Pinout
 
@@ -187,7 +195,7 @@ The line connector (for attaching the bell wire) is a 2-way 3.81 mm pitch termin
 | R15        | 1   | 22k               | Resistor 1/8W or 1/4W                   |
 | R16        | 1   | 1M                | Resistor 1/8W or 1/4W                   |
 | SW1        | 1   | RS1010-2Pole-4Pos | 2P4T Rotary Switch                      |
-| n/a        | 1   | JST PH Cable      | 8way Opposite/Reverse Direction cable   |
+| n/a        | 1   | JST PH 15cm Cable | 8way Opposite/Reverse Direction cable   |
 | n/a        | 1   | Knob 6mm Knurled  | 15mm dia outer, flower inner hole 6mm   |
 
 
