@@ -149,3 +149,4 @@ The line connector (for attaching the bell wire) is a 2-way 3.81 mm pitch termin
 
 
 
+
