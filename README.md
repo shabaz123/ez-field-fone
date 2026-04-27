@@ -227,7 +227,7 @@ The line connector (for attaching the bell wire) is a 2-way 3.81 mm pitch termin
 | R25,R27                       | 2   | 47k               | Resistor 1/8W or 1/4W                 |
 | R28                           | 1   | 22k               | Resistor 1/8W or 1/4W                 |
 | R32                           | 1   | 43k               | Resistor 1/8W or 1/4W                 |
-| R35                           | 1   | 630R              | Resistor 1/8W or 1/4W                 |
+| R35                           | 1   | 630R (620R+10R)   | Resistor 1/8W or 1/4W                 |
 | R36                           | 1   | 1.5k              | Resistor 1/8W or 1/4W                 |
 | R37                           | 1   | 100k              | Resistor 1/8W or 1/4W                 |
 | R40                           | 1   | 27k               | Resistor 1/8W or 1/4W                 |
